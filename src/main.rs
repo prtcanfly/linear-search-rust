@@ -7,6 +7,7 @@ fn linear_search(array: &[i32], target: i32) -> Option<usize> {
             return Some(i);
         }
     }
+    
     // return none if there is no value equal to the target
     None
 }
